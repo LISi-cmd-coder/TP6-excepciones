@@ -1,0 +1,5 @@
+Explicación de los cambios:
+Excepción personalizada CirculosIgualesException: Se crea una clase que extiende de Exception y tiene un constructor para recibir un mensaje descriptivo del error.
+Modificación en la clase Circulo: Se agrega la verificación de si ambos círculos tienen la misma superficie en el método elMayorCirculo y se lanza una excepción con un mensaje descriptivo en caso de igualdad.
+Bloque try-catch en la clase CreaFigura: Al intentar obtener el círculo mayor, se usa un bloque try que llama al método elMayorCirculo. Si se lanza la excepción, el catch muestra el mensaje correspondiente.
+Con estas modificaciones, el programa podrá detectar cuando los círculos son iguales y mostrará el mensaje de error de forma adecuada.
